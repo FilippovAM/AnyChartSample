@@ -1,0 +1,36 @@
+/* Clear float */
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: " ";
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.wrapper {
+    margin: 50px 0;
+}
+
+.section {
+    border: 1px solid black;
+    padding: 35px 10px;
+}
+
+.section-separator {
+    margin-bottom: 30px;
+}
+
+.chart {
+    height: 250px;
+}
+
