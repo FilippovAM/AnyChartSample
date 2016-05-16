@@ -52,8 +52,10 @@
                 chart.container(container).draw();
 
                 $('#clear').on('click', function () {
-                    chart.dispose();
-                    chart = null;
+                    if (chart != null) {
+                        chart.dispose();
+                        chart = null;
+                    }
                 });
             });
 
@@ -78,8 +80,10 @@
                 chart.container(container).draw();
 
                 $('#clear').on('click', function () {
-                    chart.dispose();
-                    chart = null;
+                    if (chart != null){
+                        chart.dispose();
+                        chart = null;
+                    }
                 });
             });
 
